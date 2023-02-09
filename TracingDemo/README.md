@@ -98,7 +98,9 @@ Let's explore other events that we can record.
 
 1. Run the TracingDemo `dotnet run --project .\TracingDemo\TracingDemo.csproj`
 2. Start the collection with stop triggers defined 
-`PerfView.exe collect advancedTrace.etl -BufferSizeMB:1024 -CircularMB:1024 -InMemoryCircularBuffer -Zip:false -Merge:false -NoNGenPdbs -NoNGenRundown -MaxCollectSec:2500000 -CollectMultiple:2 "-StopOnException:InvalidOperationException.*Demo exception" "-StopOnEtwEvent:*DM-TracingDemo-Web2/IndexGet/Stop" -providers=*DM-TracingDemo-Web2::Verbose -ThreadTime`
+```
+PerfView.exe collect advancedTrace.etl -BufferSizeMB:1024 -CircularMB:1024 -InMemoryCircularBuffer -Zip:false -Merge:false -NoNGenPdbs -NoNGenRundown -MaxCollectSec:2500000 -CollectMultiple:2 "-StopOnException:InvalidOperationException.*Demo exception" "-StopOnEtwEvent:*DM-TracingDemo-Web2/IndexGet/Stop" -providers=*DM-TracingDemo-Web2::Verbose -ThreadTime
+```
 3. Refresh the home page of the demo web application
 4. Chane focus to PerfView collect dialog and wait 10 seconds
 5. Note the collection stops after 5 seconds and then shortly starts again
