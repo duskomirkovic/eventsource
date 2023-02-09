@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracingDemo", "TracingDemo\TracingDemo.csproj", "{610A894C-4FFF-4D03-8CD3-958A9EF2F7CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracingBenchmark", "TracingBenchmark\TracingBenchmark.csproj", "{4CF1E27B-7A93-46C0-8988-20A9E287B54D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceSession", "TraceSession\TraceSession.csproj", "{9E2914C3-8064-4F30-9599-FD509F828A90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610A894C-4FFF-4D03-8CD3-958A9EF2F7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610A894C-4FFF-4D03-8CD3-958A9EF2F7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610A894C-4FFF-4D03-8CD3-958A9EF2F7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610A894C-4FFF-4D03-8CD3-958A9EF2F7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF1E27B-7A93-46C0-8988-20A9E287B54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF1E27B-7A93-46C0-8988-20A9E287B54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF1E27B-7A93-46C0-8988-20A9E287B54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF1E27B-7A93-46C0-8988-20A9E287B54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2914C3-8064-4F30-9599-FD509F828A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2914C3-8064-4F30-9599-FD509F828A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2914C3-8064-4F30-9599-FD509F828A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2914C3-8064-4F30-9599-FD509F828A90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
