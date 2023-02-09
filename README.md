@@ -12,4 +12,4 @@ Slides can be downloaded [here](FastFlexibleLoggingTracingdotNET.pdf).
 
 After the benchmark you can cancel the recording.
 
-[TraceSession](TraceSession) is an example of logging application that can subscribe to events from another app. See Demo 7 [here](TracingDemo/README.md).
+[TraceSession](TraceSession) is an example of logging application that can subscribe to events from another app. See Demo 7 [here](TracingDemo/README.md#demo-7).
